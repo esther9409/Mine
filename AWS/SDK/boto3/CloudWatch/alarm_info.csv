@@ -1,8 +1,0 @@
-﻿Alarm Name,Alarm Description,Metric,Namespace,Statistic,Threshold,ComparisonOperator,EvaluationPeriods,Dimensions,SNS
-AlarmTest-EC2-CPUUtilization,AlarmTest-EC2-CPUUtilization-超過65%持續10分鐘,CPUUtilization,AWS/EC2,Maximum,65,GreaterThanThreshold,2,InstanceId:<Instance ID>,<sns arn>
-AlarmTest-EC2-Network-In,AlarmTest-EC2-Network-In-超過100MB持續10分鐘,NetworkIn,AWS/EC2,Average,100000000,GreaterThanThreshold,2,InstanceId:<Instance ID>,<sns arn>
-AlarmTest-EC2-Network-Out,AlarmTest-EC2-Network-Out-超過100MB持續10分鐘,NetworkOut,AWS/EC2,Average,100000000,GreaterThanThreshold,2,InstanceId:<Instance ID>,<sns arn>
-AlarmTest-EC2-StatusCheck,AlarmTest-EC2-StatusCheck-(System or Instance Failed),StatusCheckFailed,AWS/EC2,Maximum,1,GreaterThanOrEqualToThreshold,1,InstanceId:<Instance ID>,<sns arn>
-AlarmTest-EC2-EBSWriteOps,AlarmTest-EC2-EBSWriteOps-每秒超過300次持續10分鐘,EBSWriteOps,AWS/EC2,Average,3000,GreaterThanThreshold,2,InstanceId:<Instance ID>,<sns arn>
-AlarmTest-Container-MemoryUtilization,AlarmTest-Container-MemoryUtilization-超過80%持續10分鐘,MemoryUtilization,AWS/ECS,Average,80,GreaterThanThreshold,2,ServiceName:<ecs service name> ClusterName:<ecs cluster name>,<sns arn>
-AlarmTest-Container-CPUUtilization,AlarmTest-Container-CPUUtilization-超過85%持續10分鐘,CPUUtilization,AWS/ECS,Maximum,85,GreaterThanThreshold,2,ServiceName:<ecs service name> ClusterName:<ecs cluster name>,<sns arn>
